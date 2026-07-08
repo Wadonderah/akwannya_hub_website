@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apply & Contact | Cloud Build With Peers</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Submit your cohort application or send general inquiries to the Cloud Build With Peers community organizers and directors." />
+    <meta name="keywords" content="Apply Cloud Cohort, AWS Cohort Application, Akwannya Hub Contact, Contact Tech organizers" />
+
+    <!-- Style sheet -->
+    <link rel="icon" type="image/svg+xml" href="/assets/cloud-build-peers-logo.svg" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body class="bg-white text-slate-800 antialiased font-sans">
+
+    <!-- HEADER & NAVIGATION -->
+    <header id="main-header" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 py-5 bg-transparent">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between">
+          <!-- Logo -->
+          <a href="index.html" class="flex items-center gap-3 group" id="logo-link">
+            <img src="/assets/cloud-build-peers-logo.svg" alt="Cloud Build With Peers Logo" class="h-12 w-12 group-hover:scale-105 transition-all duration-300" />
+            <div class="flex flex-col">
+              <span class="text-lg font-extrabold tracking-tight text-[#0A1E5E] leading-tight transition-colors">Cloud Build <span class="text-[#F7941D]">With Peers</span></span>
+              <span class="text-[10px] font-bold text-[#007B75] tracking-widest uppercase leading-none">by Akwannya Hub</span>
+            </div>
+          </a>
+
+          <!-- Navigation links -->
+          <nav class="hidden md:flex space-x-8" id="desktop-nav">
+            <a href="index.html" class="nav-link text-sm font-medium text-slate-600 hover:text-accent transition duration-200" id="nav-home">Home</a>
+            <a href="about.html" class="nav-link text-sm font-medium text-slate-600 hover:text-accent transition duration-200" id="nav-about">About</a>
+            <a href="programs.html" class="nav-link text-sm font-medium text-slate-600 hover:text-accent transition duration-200" id="nav-programs">Programs</a>
+            <a href="projects.html" class="nav-link text-sm font-medium text-slate-600 hover:text-accent transition duration-200" id="nav-projects">Projects</a>
+            <a href="team.html" class="nav-link text-sm font-medium text-slate-600 hover:text-accent transition duration-200" id="nav-team">Teams</a>
+            <a href="faq.html" class="nav-link text-sm font-medium text-slate-600 hover:text-accent transition duration-200" id="nav-faq">FAQ</a>
+            <a href="contact.html" class="nav-link text-sm font-medium text-slate-600 hover:text-accent transition duration-200" id="nav-contact">Contact</a>
+          </nav>
+
+          <!-- Action Button -->
+          <div class="hidden md:block" id="header-action">
+            <a href="contact.html" class="bg-primary text-white hover:bg-primary/95 font-medium text-sm px-5 py-2.5 rounded-xl transition duration-300 shadow-sm" id="btn-navbar-join">Join Next Cohort</a>
+          </div>
+
+          <!-- Mobile Hamburger -->
+          <div class="md:hidden" id="hamburger-wrapper">
+            <button id="mobile-menu-btn" class="text-slate-600 hover:text-primary focus:outline-none p-2 rounded-lg hover:bg-slate-50 transition-colors" aria-label="Toggle mobile menu">
+              <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path id="hamburger-bar-1" class="transition-all duration-300 origin-center" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16" />
+                <path id="hamburger-bar-2" class="transition-all duration-300 origin-center" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12h16" />
+                <path id="hamburger-bar-3" class="transition-all duration-300 origin-center" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 18h16" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden md:hidden fixed top-[72px] left-0 w-full bg-white border-b border-slate-100 shadow-xl opacity-0 -translate-y-4 transition-all duration-300 ease-in-out">
+        <div class="px-4 pt-2 pb-6 space-y-3">
+          <a href="index.html" class="nav-link block px-3 py-2.5 rounded-xl text-base font-medium text-slate-600 hover:bg-slate-50 hover:text-accent transition" id="mobile-nav-home">Home</a>
+          <a href="about.html" class="nav-link block px-3 py-2.5 rounded-xl text-base font-medium text-slate-600 hover:bg-slate-50 hover:text-accent transition" id="mobile-nav-about">About</a>
+          <a href="programs.html" class="nav-link block px-3 py-2.5 rounded-xl text-base font-medium text-slate-600 hover:bg-slate-50 hover:text-accent transition" id="mobile-nav-programs">Programs</a>
+          <a href="projects.html" class="nav-link block px-3 py-2.5 rounded-xl text-base font-medium text-slate-600 hover:bg-slate-50 hover:text-accent transition" id="mobile-nav-projects">Projects</a>
+          <a href="team.html" class="nav-link block px-3 py-2.5 rounded-xl text-base font-medium text-slate-600 hover:bg-slate-50 hover:text-accent transition" id="mobile-nav-team">Teams</a>
+          <a href="faq.html" class="nav-link block px-3 py-2.5 rounded-xl text-base font-medium text-slate-600 hover:bg-slate-50 hover:text-accent transition" id="mobile-nav-faq">FAQ</a>
+          <a href="contact.html" class="nav-link block px-3 py-2.5 rounded-xl text-base font-medium text-slate-600 hover:bg-slate-50 hover:text-accent transition" id="mobile-nav-contact">Contact</a>
+          <div class="pt-4 px-3" id="mobile-action-wrapper">
+            <a href="contact.html" class="block w-full text-center bg-primary text-white hover:bg-primary/95 font-medium py-3 rounded-xl transition shadow-md" id="mobile-btn-join">Join Next Cohort</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN CONTACT HERO -->
+    <section class="relative pt-36 pb-20 md:pt-48 md:pb-28 overflow-hidden bg-slate-50 border-b border-slate-100">
+      <div class="absolute inset-0 bg-[linear-gradient(to_right,#e2e8f0_1px,transparent_1px),linear-gradient(to_bottom,#e2e8f0_1px,transparent_1px)] bg-[size:4rem_4rem] opacity-30"></div>
+      
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center reveal">
+        <span class="text-xs font-bold tracking-widest text-accent uppercase bg-accent/10 px-3.5 py-1.5 rounded-full border border-accent/20">Action Portal</span>
+        <h1 class="text-4xl sm:text-5xl font-extrabold font-display text-primary mt-4 mb-6">
+          Submit Cohort Application
+        </h1>
+        <p class="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
+          Ready to trade passive video watching for rigorous, collaborative AWS infrastructure building? Complete our intake application below.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT FORM & INFO -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+          
+          <!-- Column 1: Info Links & Digital Community Visualizer -->
+          <div class="lg:col-span-5 space-y-8 reveal">
+            <div class="space-y-4">
+              <h2 class="text-3xl font-bold text-primary font-display">Akwannya Hub</h2>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                Our team handles general inquiries and cohort intake reviews asynchronously. Expect responses within 2 business days of submitting.
+              </p>
+            </div>
+
+            <!-- Channels -->
+            <div class="space-y-4">
+              
+              <div class="flex items-center space-x-4">
+                <div class="w-10 h-10 bg-accent/10 text-accent rounded-xl flex items-center justify-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Email Channels</p>
+                  <a href="mailto:akwannyah@gmail.com" class="text-sm font-bold text-slate-700 hover:text-accent transition">akwannyah@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="flex items-center space-x-4">
+                <div class="w-10 h-10 bg-purple/10 text-purple rounded-xl flex items-center justify-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Headquarters</p>
+                  <p class="text-sm font-bold text-slate-700">Akwannya Tech, Remote Worldwide</p>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Aesthetic Global Digital Grid visualizer -->
+            <div class="bg-slate-50 border border-slate-100 rounded-2xl p-6 relative overflow-hidden">
+              <div class="absolute inset-0 bg-[linear-gradient(to_right,#e2e8f0_1px,transparent_1px),linear-gradient(to_bottom,#e2e8f0_1px,transparent_1px)] bg-[size:1.5rem_1.5rem] opacity-20"></div>
+              <h4 class="font-bold text-primary text-sm font-display mb-2 relative z-10">Global Cohort Distribution</h4>
+              <p class="text-slate-500 text-xs leading-relaxed relative z-10 mb-4">Connecting builders across America, Europe, Africa, and Asian technical hubs synchronously.</p>
+              
+              <!-- Map vector representation -->
+              <svg viewBox="0 0 400 150" fill="none" class="w-full h-auto opacity-80 relative z-10 animate-pulse">
+                <circle cx="100" cy="50" r="5" fill="#2563EB" />
+                <circle cx="100" cy="50" r="10" stroke="#2563EB" stroke-width="1.5" stroke-opacity="0.3" />
+                
+                <circle cx="210" cy="65" r="4" fill="#7C3AED" />
+                <circle cx="210" cy="65" r="8" stroke="#7C3AED" stroke-width="1.5" stroke-opacity="0.3" />
+
+                <circle cx="240" cy="90" r="6" fill="#F7941D" />
+                <circle cx="240" cy="90" r="12" stroke="#F7941D" stroke-width="1.5" stroke-opacity="0.3" />
+                
+                <line x1="100" y1="50" x2="210" y2="65" stroke="#94A3B8" stroke-width="1" stroke-dasharray="2 2" />
+                <line x1="210" y1="65" x2="240" y2="90" stroke="#94A3B8" stroke-width="1" stroke-dasharray="2 2" />
+              </svg>
+            </div>
+
+          </div>
+
+          <!-- Column 2: Interactive Intake Application -->
+          <div class="lg:col-span-7 reveal">
+            <div class="bg-slate-50 rounded-3xl border border-slate-100 p-6 sm:p-10 shadow-lg relative">
+              <h3 class="text-xl sm:text-2xl font-bold text-primary font-display mb-6">Cohorts Application / Contact</h3>
+              
+              <form id="cohort-apply-form" class="space-y-5">
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div class="space-y-1.5">
+                    <label for="app-name" class="block text-xs font-bold text-slate-500 uppercase tracking-wider">Applicant Name</label>
+                    <input type="text" id="app-name" required class="w-full bg-white border border-slate-200 rounded-xl px-4 py-3 text-sm focus:border-accent focus:outline-none transition duration-200" placeholder="e.g. Adebayo Benson" />
+                  </div>
+                  <div class="space-y-1.5">
+                    <label for="app-email" class="block text-xs font-bold text-slate-500 uppercase tracking-wider">Email Address</label>
+                    <input type="email" id="app-email" required class="w-full bg-white border border-slate-200 rounded-xl px-4 py-3 text-sm focus:border-accent focus:outline-none transition duration-200" placeholder="e.g. adebayo@example.com" />
+                  </div>
+                </div>
+
+                <div class="space-y-1.5 animate-fade-in">
+                  <label for="app-github" class="block text-xs font-bold text-slate-500 uppercase tracking-wider">GitHub Profile URL</label>
+                  <input type="url" id="app-github" required class="w-full bg-white border border-slate-200 rounded-xl px-4 py-3 text-sm focus:border-accent focus:outline-none transition duration-200" placeholder="e.g. github.com/adebayo" />
+                </div>
+
+                <div class="space-y-1.5">
+                  <label for="app-intent" class="block text-xs font-bold text-slate-500 uppercase tracking-wider">Statement of Intent & Prereqs</label>
+                  <textarea id="app-intent" required rows="5" class="w-full bg-white border border-slate-200 rounded-xl px-4 py-3 text-sm focus:border-accent focus:outline-none transition duration-200 resize-none" placeholder="Briefly describe your experience with Linux terminals and why you want to build in collaborative peer squads..."></textarea>
+                </div>
+
+                <div class="space-y-1.5">
+                  <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider">Upload CV / Resume</label>
+                  <div id="cv-dropzone" class="border-2 border-dashed border-slate-200 hover:border-accent bg-white rounded-xl p-5 text-center cursor-pointer transition duration-200 relative group">
+                    <input type="file" id="app-cv" accept=".pdf,.doc,.docx" required class="absolute inset-0 w-full h-full opacity-0 cursor-pointer z-10" />
+                    <div id="cv-prompt-view" class="space-y-2 relative z-0">
+                      <div class="mx-auto w-10 h-10 bg-slate-50 text-slate-400 group-hover:bg-accent/10 group-hover:text-accent rounded-xl flex items-center justify-center transition duration-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                        </svg>
+                      </div>
+                      <div class="text-xs text-slate-600">
+                        <span class="font-bold text-accent">Click to upload</span> or drag and drop your CV here
+                      </div>
+                      <p class="text-[10px] text-slate-400">PDF, DOCX, or DOC up to 10MB</p>
+                    </div>
+                    <div id="cv-selected-view" class="hidden flex items-center justify-between bg-slate-50 border border-slate-100 rounded-lg p-3 text-left relative z-20">
+                      <div class="flex items-center space-x-3 min-w-0">
+                        <div class="w-8 h-8 bg-accent/10 text-accent rounded-lg flex items-center justify-center shrink-0">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                          </svg>
+                        </div>
+                        <div class="min-w-0">
+                          <p id="cv-filename" class="text-xs font-bold text-slate-700 truncate">curriculum_vitae.pdf</p>
+                          <p id="cv-filesize" class="text-[10px] text-slate-400">1.2 MB</p>
+                        </div>
+                      </div>
+                      <button type="button" id="cv-remove-btn" class="p-1.5 hover:bg-slate-200 text-slate-400 hover:text-slate-600 rounded-lg transition relative z-30">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="pt-2">
+                  <button type="submit" class="w-full bg-primary hover:bg-primary/95 text-white font-bold py-4 rounded-xl transition duration-300 shadow-md">
+                    Submit Intake Form
+                  </button>
+                </div>
+
+              </form>
+
+              <!-- SUCCESS FLOATING MODAL ALERT (UI only, triggered via JS) -->
+              <div id="apply-success-modal" class="hidden absolute inset-0 bg-white/95 rounded-3xl flex flex-col items-center justify-center text-center p-8 z-30 transition-all duration-300">
+                <div class="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mb-6 border border-emerald-200 animate-bounce">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <h4 class="text-2xl font-bold text-primary font-display mb-2">Application Received!</h4>
+                <p class="text-slate-600 text-sm max-w-sm leading-relaxed mb-6">
+                  Thank you for applying. The organizers will evaluate your GitHub milestones and match you to a squad. Look out for an email invitation.
+                </p>
+                <button id="apply-reset-btn" class="bg-slate-100 hover:bg-slate-200 text-slate-600 font-semibold px-6 py-2.5 rounded-xl text-sm transition">
+                  Close Window
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-slate-400 pt-16 pb-8 border-t border-slate-800" id="main-footer">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 pb-12 border-b border-slate-800">
+          
+          <!-- Column 1 -->
+          <div class="md:col-span-4 space-y-4">
+            <!-- Logo -->
+            <a href="index.html" class="flex items-center gap-3 group" id="footer-logo-link">
+              <img src="/assets/cloud-build-peers-logo.svg" alt="Cloud Build With Peers Logo" class="h-12 w-12 brightness-0 invert opacity-80 group-hover:opacity-100 transition duration-300" />
+              <div class="flex flex-col">
+                <span class="text-lg font-extrabold tracking-tight text-white leading-tight">Cloud Build <span class="text-[#F7941D]">With Peers</span></span>
+                <span class="text-[10px] font-bold text-[#38BDF8] tracking-widest uppercase leading-none">by Akwannya Hub</span>
+              </div>
+            </a>
+            <p class="text-sm text-slate-400 max-w-sm leading-relaxed">
+              Cloud Build With Peers is an accredited initiative of <strong>Akwannya Hub</strong>. We engineer high-performance cohort environments designed to replace isolated video watching with secure community team-building.
+            </p>
+          </div>
+
+          <!-- Column 2 -->
+          <div class="md:col-span-2 space-y-4">
+            <h3 class="text-sm font-bold tracking-wider text-slate-200 uppercase">Quick Links</h3>
+            <ul class="space-y-2.5 text-sm">
+              <li><a href="index.html" class="hover:text-white transition duration-200">Home Page</a></li>
+              <li><a href="about.html" class="hover:text-white transition duration-200">About Initiative</a></li>
+              <li><a href="programs.html" class="hover:text-white transition duration-200">Syllabus & Programs</a></li>
+              <li><a href="projects.html" class="hover:text-white transition duration-200">Featured Projects</a></li>
+              <li><a href="team.html" class="hover:text-white transition duration-200">Community Teams</a></li>
+              <li><a href="faq.html" class="hover:text-white transition duration-200">General FAQ</a></li>
+              <li><a href="contact.html" class="hover:text-white transition duration-200">Contact Form</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 3 -->
+          <div class="md:col-span-3 space-y-4">
+            <h3 class="text-sm font-bold tracking-wider text-slate-200 uppercase">Akwannya Hub</h3>
+            <p class="text-sm leading-relaxed">
+              Inquiries: <a href="mailto:akwannyah@gmail.com" class="text-slate-200 hover:text-white transition">akwannyah@gmail.com</a>
+            </p>
+            <p class="text-xs text-slate-500">
+              Akwannya Hub is dedicated to fostering digital literacy, cloud expertise, and strategic tech career portfolios globally.
+            </p>
+            <div class="flex items-center space-x-4 pt-2" id="footer-social-wrapper">
+              <a href="https://linkedin.com/company/akwannya-hub" target="_blank" rel="noopener noreferrer" class="p-2 bg-slate-800 rounded-xl hover:bg-primary hover:text-white transition duration-200 text-slate-400" aria-label="LinkedIn">
+                <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                </svg>
+              </a>
+              <a href="https://x.com/akwannyahub" target="_blank" rel="noopener noreferrer" class="p-2 bg-slate-800 rounded-xl hover:bg-primary hover:text-white transition duration-200 text-slate-400" aria-label="X (formerly Twitter)">
+                <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Column 4: Newsletter -->
+          <div class="md:col-span-3 space-y-4">
+            <h3 class="text-sm font-bold tracking-wider text-slate-200 uppercase">Newsletter</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Sign up to receive updates when new learning cohorts are announced.
+            </p>
+            <form id="newsletter-form" class="space-y-2">
+              <div class="relative">
+                <input type="email" id="newsletter-email" required class="w-full bg-slate-800 border border-slate-700 rounded-xl pl-4 pr-16 py-2.5 text-xs text-white placeholder-slate-500 focus:border-accent focus:outline-none transition duration-200" placeholder="Enter your email" />
+                <button type="submit" class="absolute right-1.5 top-1.5 bottom-1.5 bg-primary hover:bg-primary/95 text-white px-3 rounded-lg text-xs font-bold transition duration-200">
+                  Join
+                </button>
+              </div>
+              <p id="newsletter-message" class="text-[10px] text-emerald-400 hidden">Thanks! You've been added to our list.</p>
+            </form>
+          </div>
+
+        </div>
+
+        <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500">
+          <p>© 2026 Cloud Build With Peers by Akwannya Hub. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Interactive script loader -->
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>

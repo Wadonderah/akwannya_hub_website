@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curriculum & Programs | Cloud Build With Peers</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Explore the comprehensive 6-week syllabus, weekly schedules, covered technologies, and expected outcomes of the Cloud Build With Peers cohorts." />
+    <meta name="keywords" content="AWS Curriculum, DevOps Syllabus, Learn Terraform, Learn Docker, Akwannya Hub Cloud Program" />
+
+    <!-- Style sheet -->
+    <link rel="icon" type="image/svg+xml" href="/assets/cloud-build-peers-logo.svg" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body class="bg-white text-slate-800 antialiased font-sans">
+
+    <!-- HEADER & NAVIGATION -->
+    <header id="main-header" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 py-5 bg-transparent">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between">
+          <!-- Logo -->
+          <a href="index.html" class="flex items-center gap-3 group" id="logo-link">
+            <img src="/assets/cloud-build-peers-logo.svg" alt="Cloud Build With Peers Logo" class="h-12 w-12 group-hover:scale-105 transition-all duration-300" />
+            <div class="flex flex-col">
+              <span class="text-lg font-extrabold tracking-tight text-[#0A1E5E] leading-tight transition-colors">Cloud Build <span class="text-[#F7941D]">With Peers</span></span>
+              <span class="text-[10px] font-bold text-[#007B75] tracking-widest uppercase leading-none">by Akwannya Hub</span>
+            </div>
+          </a>
+
+          <!-- Navigation links -->
+          <nav class="hidden md:flex space-x-8" id="desktop-nav">
+            <a href="index.html" class="nav-link text-sm font-medium text-slate-600 hover:text-accent transition duration-200" id="nav-home">Home</a>
+            <a href="about.html" class="nav-link text-sm font-medium text-slate-600 hover:text-accent transition duration-200" id="nav-about">About</a>
+            <a href="programs.html" class="nav-link text-sm font-medium text-slate-600 hover:text-accent transition duration-200" id="nav-programs">Programs</a>
+            <a href="projects.html" class="nav-link text-sm font-medium text-slate-600 hover:text-accent transition duration-200" id="nav-projects">Projects</a>
+            <a href="team.html" class="nav-link text-sm font-medium text-slate-600 hover:text-accent transition duration-200" id="nav-team">Teams</a>
+            <a href="faq.html" class="nav-link text-sm font-medium text-slate-600 hover:text-accent transition duration-200" id="nav-faq">FAQ</a>
+            <a href="contact.html" class="nav-link text-sm font-medium text-slate-600 hover:text-accent transition duration-200" id="nav-contact">Contact</a>
+          </nav>
+
+          <!-- Action Button -->
+          <div class="hidden md:block" id="header-action">
+            <a href="contact.html" class="bg-primary text-white hover:bg-primary/95 font-medium text-sm px-5 py-2.5 rounded-xl transition duration-300 shadow-sm" id="btn-navbar-join">Join Next Cohort</a>
+          </div>
+
+          <!-- Mobile Hamburger -->
+          <div class="md:hidden" id="hamburger-wrapper">
+            <button id="mobile-menu-btn" class="text-slate-600 hover:text-primary focus:outline-none p-2 rounded-lg hover:bg-slate-50 transition-colors" aria-label="Toggle mobile menu">
+              <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path id="hamburger-bar-1" class="transition-all duration-300 origin-center" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16" />
+                <path id="hamburger-bar-2" class="transition-all duration-300 origin-center" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12h16" />
+                <path id="hamburger-bar-3" class="transition-all duration-300 origin-center" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 18h16" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden md:hidden fixed top-[72px] left-0 w-full bg-white border-b border-slate-100 shadow-xl opacity-0 -translate-y-4 transition-all duration-300 ease-in-out">
+        <div class="px-4 pt-2 pb-6 space-y-3">
+          <a href="index.html" class="nav-link block px-3 py-2.5 rounded-xl text-base font-medium text-slate-600 hover:bg-slate-50 hover:text-accent transition" id="mobile-nav-home">Home</a>
+          <a href="about.html" class="nav-link block px-3 py-2.5 rounded-xl text-base font-medium text-slate-600 hover:bg-slate-50 hover:text-accent transition" id="mobile-nav-about">About</a>
+          <a href="programs.html" class="nav-link block px-3 py-2.5 rounded-xl text-base font-medium text-slate-600 hover:bg-slate-50 hover:text-accent transition" id="mobile-nav-programs">Programs</a>
+          <a href="projects.html" class="nav-link block px-3 py-2.5 rounded-xl text-base font-medium text-slate-600 hover:bg-slate-50 hover:text-accent transition" id="mobile-nav-projects">Projects</a>
+          <a href="team.html" class="nav-link block px-3 py-2.5 rounded-xl text-base font-medium text-slate-600 hover:bg-slate-50 hover:text-accent transition" id="mobile-nav-team">Teams</a>
+          <a href="faq.html" class="nav-link block px-3 py-2.5 rounded-xl text-base font-medium text-slate-600 hover:bg-slate-50 hover:text-accent transition" id="mobile-nav-faq">FAQ</a>
+          <a href="contact.html" class="nav-link block px-3 py-2.5 rounded-xl text-base font-medium text-slate-600 hover:bg-slate-50 hover:text-accent transition" id="mobile-nav-contact">Contact</a>
+          <div class="pt-4 px-3" id="mobile-action-wrapper">
+            <a href="contact.html" class="block w-full text-center bg-primary text-white hover:bg-primary/95 font-medium py-3 rounded-xl transition shadow-md" id="mobile-btn-join">Join Next Cohort</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN PROGRAMS HERO -->
+    <section class="relative pt-36 pb-20 md:pt-48 md:pb-28 overflow-hidden bg-slate-50 border-b border-slate-100">
+      <div class="absolute inset-0 bg-[linear-gradient(to_right,#e2e8f0_1px,transparent_1px),linear-gradient(to_bottom,#e2e8f0_1px,transparent_1px)] bg-[size:4rem_4rem] opacity-30"></div>
+      
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center reveal">
+        <span class="text-xs font-bold tracking-widest text-accent uppercase bg-accent/10 px-3.5 py-1.5 rounded-full border border-accent/20">Educational Framework</span>
+        <h1 class="text-4xl sm:text-5xl font-extrabold font-display text-primary mt-4 mb-6">
+          The 6-Week Collaborative Syllabus
+        </h1>
+        <p class="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
+          Examine the comprehensive structure of our technical cohort. Learn tools by applying them in synchronized squads alongside experienced advisors.
+        </p>
+      </div>
+    </section>
+
+    <!-- CURRENT COHORT RECRUITMENT SPECIFICATIONS -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-gradient-to-r from-primary to-[#0E2C85] rounded-[24px] p-8 sm:p-12 text-white shadow-xl relative overflow-hidden reveal">
+          <div class="absolute right-0 top-0 w-96 h-96 bg-accent/10 rounded-full blur-3xl pointer-events-none"></div>
+          
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div class="lg:col-span-8 space-y-6">
+              <span class="text-xs font-bold bg-secondary text-white px-3 py-1 rounded-full uppercase tracking-widest">Cohort Recruiting</span>
+              <h2 class="text-3xl sm:text-4xl font-bold font-display">Cloud Build Squad: Cohort 2</h2>
+              <p class="text-slate-200 text-sm sm:text-base leading-relaxed">
+                We are currently accepting applications for Cohort 2. This cohort focuses heavily on continuous integration pipeline deployment, Terraform module orchestration, and serverless API structures.
+              </p>
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
+                <div class="bg-white/5 border border-white/10 p-4 rounded-xl">
+                  <p class="text-xs text-slate-300 font-semibold uppercase tracking-wider">Start Date</p>
+                  <p class="text-sm font-bold mt-1">To Be Announced</p>
+                </div>
+                <div class="bg-white/5 border border-white/10 p-4 rounded-xl">
+                  <p class="text-xs text-slate-300 font-semibold uppercase tracking-wider">Format</p>
+                  <p class="text-sm font-bold mt-1">100% Remote, Live Sync</p>
+                </div>
+                <div class="bg-white/5 border border-white/10 p-4 rounded-xl">
+                  <p class="text-xs text-slate-300 font-semibold uppercase tracking-wider">Accepting</p>
+                  <p class="text-sm font-bold mt-1">Active Builders</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="lg:col-span-4 flex justify-center lg:justify-end">
+              <div class="bg-white text-slate-800 p-6 rounded-2xl w-full max-w-sm shadow-2xl border border-slate-100">
+                <h4 class="font-bold text-primary font-display text-lg mb-3">Syllabus Requirements</h4>
+                <ul class="space-y-3.5 text-sm text-slate-600 mb-6">
+                  <li class="flex items-start">
+                    <span class="text-emerald-500 font-bold mr-2">✓</span>
+                    <span>Basic understanding of Linux & Shell</span>
+                  </li>
+                  <li class="flex items-start">
+                    <span class="text-emerald-500 font-bold mr-2">✓</span>
+                    <span>Commitment of 8-10 hours / week</span>
+                  </li>
+                  <li class="flex items-start">
+                    <span class="text-emerald-500 font-bold mr-2">✓</span>
+                    <span>Active GitHub profile</span>
+                  </li>
+                </ul>
+                <a href="contact.html" class="block text-center w-full bg-secondary hover:bg-secondary/95 text-white font-bold py-3.5 rounded-xl transition duration-300 shadow-md">
+                  Apply for Cohort 2
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- WEEKLY LEARNING SCHEDULE (Deep Syllabus Dive) -->
+    <section class="py-20 bg-slate-50 border-y border-slate-100">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16 reveal">
+          <span class="text-xs font-bold tracking-widest text-purple uppercase bg-purple/10 px-3.5 py-1.5 rounded-full border border-purple/20">The Breakdown</span>
+          <h2 class="text-3xl sm:text-4xl font-bold text-primary mt-4 mb-4 font-display">Detailed Weekly Curriculum</h2>
+          <p class="text-slate-600 text-base">Step-by-step weekly milestone breakdown engineered to guarantee successful, functional infrastructure creation.</p>
+        </div>
+
+        <div class="space-y-8 max-w-5xl mx-auto">
+          
+          <!-- Week 1 Detail -->
+          <div class="bg-white rounded-[24px] border border-slate-100 p-6 sm:p-8 hover:shadow-xl transition-shadow duration-300 flex flex-col md:flex-row gap-6 reveal">
+            <div class="md:w-1/4">
+              <span class="inline-block bg-secondary/10 text-secondary text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Week 1</span>
+              <h3 class="text-2xl font-bold text-primary mt-2 font-display">Foundations</h3>
+              <p class="text-xs font-semibold text-slate-400 mt-1 uppercase tracking-wider">Duration: 1 Week</p>
+            </div>
+            <div class="md:w-3/4 space-y-3 text-sm">
+              <h4 class="font-bold text-slate-700 text-base sm:text-lg">Security Baseline & Command Terminals</h4>
+              <p class="text-slate-600 leading-relaxed">
+                Every enterprise deployment starts with a rigorous security standard. Week 1 is structured to ensure squad members configure AWS accounts securely. We establish IAM role configurations, generate SSH keys, install AWS CLI, and sync with shared git repositories.
+              </p>
+              <div class="flex flex-wrap gap-2 pt-1">
+                <span class="bg-slate-50 border border-slate-200 text-slate-500 text-xs px-2.5 py-1 rounded-md">AWS IAM MFA</span>
+                <span class="bg-slate-50 border border-slate-200 text-slate-500 text-xs px-2.5 py-1 rounded-md">Local SSH Keys</span>
+                <span class="bg-slate-50 border border-slate-200 text-slate-500 text-xs px-2.5 py-1 rounded-md">AWS CLI config</span>
+                <span class="bg-slate-50 border border-slate-200 text-slate-500 text-xs px-2.5 py-1 rounded-md">GitHub Setup</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Week 2 Detail -->
+          <div class="bg-white rounded-[24px] border border-slate-100 p-6 sm:p-8 hover:shadow-xl transition-shadow duration-300 flex flex-col md:flex-row gap-6 reveal">
+            <div class="md:w-1/4">
+              <span class="inline-block bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Week 2</span>
+              <h3 class="text-2xl font-bold text-primary mt-2 font-display">Architecture</h3>
+              <p class="text-xs font-semibold text-slate-400 mt-1 uppercase tracking-wider">Duration: 1 Week</p>
+            </div>
+            <div class="md:w-3/4 space-y-3 text-sm">
+              <h4 class="font-bold text-slate-700 text-base sm:text-lg">VPC Mapping & Network Subnets</h4>
+              <p class="text-slate-600 leading-relaxed">
+                Design custom high-availability Virtual Private Clouds. Squads map out multi-availability-zone networks featuring public subnets for public ingress routers, isolated private subnets for application nodes, and network address translators (NAT).
+              </p>
+              <div class="flex flex-wrap gap-2 pt-1">
+                <span class="bg-slate-50 border border-slate-200 text-slate-500 text-xs px-2.5 py-1 rounded-md">Multi-AZ Subnets</span>
+                <span class="bg-slate-50 border border-slate-200 text-slate-500 text-xs px-2.5 py-1 rounded-md">NAT Gateways</span>
+                <span class="bg-slate-50 border border-slate-200 text-slate-500 text-xs px-2.5 py-1 rounded-md">Security Groups</span>
+                <span class="bg-slate-50 border border-slate-200 text-slate-500 text-xs px-2.5 py-1 rounded-md">VPC Flow Logs</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Week 3 Detail -->
+          <div class="bg-white rounded-[24px] border border-slate-100 p-6 sm:p-8 hover:shadow-xl transition-shadow duration-300 flex flex-col md:flex-row gap-6 reveal">
+            <div class="md:w-1/4">
+              <span class="inline-block bg-purple/10 text-purple text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Week 3</span>
+              <h3 class="text-2xl font-bold text-primary mt-2 font-display">Development</h3>
+              <p class="text-xs font-semibold text-slate-400 mt-1 uppercase tracking-wider">Duration: 1 Week</p>
+            </div>
+            <div class="md:w-3/4 space-y-3 text-sm">
+              <h4 class="font-bold text-slate-700 text-base sm:text-lg">Application Packing & Containerization</h4>
+              <p class="text-slate-600 leading-relaxed">
+                Code server layers and package them inside secure container formats. Squads write Express Node.js servers, configure Docker environments, optimize files to reduce sizes, and push outputs to Amazon Elastic Container Registry (ECR).
+              </p>
+              <div class="flex flex-wrap gap-2 pt-1">
+                <span class="bg-slate-50 border border-slate-200 text-slate-500 text-xs px-2.5 py-1 rounded-md">Node.js API</span>
+                <span class="bg-slate-50 border border-slate-200 text-slate-500 text-xs px-2.5 py-1 rounded-md">Dockerfiles</span>
+                <span class="bg-slate-50 border border-slate-200 text-slate-500 text-xs px-2.5 py-1 rounded-md">Multi-stage build</span>
+                <span class="bg-slate-50 border border-slate-200 text-slate-500 text-xs px-2.5 py-1 rounded-md">AWS ECR Registry</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Week 4 Detail -->
+          <div class="bg-white rounded-[24px] border border-slate-100 p-6 sm:p-8 hover:shadow-xl transition-shadow duration-300 flex flex-col md:flex-row gap-6 reveal">
+            <div class="md:w-1/4">
+              <span class="inline-block bg-secondary/10 text-secondary text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Week 4</span>
+              <h3 class="text-2xl font-bold text-primary mt-2 font-display">Deployment</h3>
+              <p class="text-xs font-semibold text-slate-400 mt-1 uppercase tracking-wider">Duration: 1 Week</p>
+            </div>
+            <div class="md:w-3/4 space-y-3 text-sm">
+              <h4 class="font-bold text-slate-700 text-base sm:text-lg">Infrastructure as Code (IaC) with Terraform</h4>
+              <p class="text-slate-600 leading-relaxed">
+                Automate cloud creations to prevent configuration drift. Cohort members write declarative Terraform files defining ECS target pools, S3 assets repositories, server compute parameters, and load balancers.
+              </p>
+              <div class="flex flex-wrap gap-2 pt-1">
+                <span class="bg-slate-50 border border-slate-200 text-slate-500 text-xs px-2.5 py-1 rounded-md">Terraform Modules</span>
+                <span class="bg-slate-50 border border-slate-200 text-slate-500 text-xs px-2.5 py-1 rounded-md">S3 State Locks</span>
+                <span class="bg-slate-50 border border-slate-200 text-slate-500 text-xs px-2.5 py-1 rounded-md">Plan & Apply</span>
+                <span class="bg-slate-50 border border-slate-200 text-slate-500 text-xs px-2.5 py-1 rounded-md">AWS ECS Fargate</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Week 5 Detail -->
+          <div class="bg-white rounded-[24px] border border-slate-100 p-6 sm:p-8 hover:shadow-xl transition-shadow duration-300 flex flex-col md:flex-row gap-6 reveal">
+            <div class="md:w-1/4">
+              <span class="inline-block bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Week 5</span>
+              <h3 class="text-2xl font-bold text-primary mt-2 font-display">Testing</h3>
+              <p class="text-xs font-semibold text-slate-400 mt-1 uppercase tracking-wider">Duration: 1 Week</p>
+            </div>
+            <div class="md:w-3/4 space-y-3 text-sm">
+              <h4 class="font-bold text-slate-700 text-base sm:text-lg">Integration Workflows & Security Auditing</h4>
+              <p class="text-slate-600 leading-relaxed">
+                Ensure codebase changes run testing checks before deployment. Squads set up automated GitHub actions pipelines, configure secrets in environment vaults, execute security audits to discover secret leaks, and fix runtime errors.
+              </p>
+              <div class="flex flex-wrap gap-2 pt-1">
+                <span class="bg-slate-50 border border-slate-200 text-slate-500 text-xs px-2.5 py-1 rounded-md">GitHub Actions</span>
+                <span class="bg-slate-50 border border-slate-200 text-slate-500 text-xs px-2.5 py-1 rounded-md">CI/CD variables</span>
+                <span class="bg-slate-50 border border-slate-200 text-slate-500 text-xs px-2.5 py-1 rounded-md">Snyk Auditing</span>
+                <span class="bg-slate-50 border border-slate-200 text-slate-500 text-xs px-2.5 py-1 rounded-md">Security Groups</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Week 6 Detail -->
+          <div class="bg-white rounded-[24px] border border-slate-100 p-6 sm:p-8 hover:shadow-xl transition-shadow duration-300 flex flex-col md:flex-row gap-6 reveal">
+            <div class="md:w-1/4">
+              <span class="inline-block bg-purple/10 text-purple text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Week 6</span>
+              <h3 class="text-2xl font-bold text-primary mt-2 font-display">Demos</h3>
+              <p class="text-xs font-semibold text-slate-400 mt-1 uppercase tracking-wider">Duration: 1 Week</p>
+            </div>
+            <div class="md:w-3/4 space-y-3 text-sm">
+              <h4 class="font-bold text-slate-700 text-base sm:text-lg">Architectural Showcase & Reviews</h4>
+              <p class="text-slate-600 leading-relaxed">
+                Present your working product structures! Cohort members explain systems, present code-bases, outline load tests results, and undergo reviews with technical advisors, culminating in accredited certificates.
+              </p>
+              <div class="flex flex-wrap gap-2 pt-1">
+                <span class="bg-slate-50 border border-slate-200 text-slate-500 text-xs px-2.5 py-1 rounded-md">Live Demo zoom</span>
+                <span class="bg-slate-50 border border-slate-200 text-slate-500 text-xs px-2.5 py-1 rounded-md">Portfolio Host</span>
+                <span class="bg-slate-50 border border-slate-200 text-slate-500 text-xs px-2.5 py-1 rounded-md">Accreditations</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPECTED OUTCOMES SECTION -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16 reveal">
+          <span class="text-xs font-bold tracking-widest text-accent uppercase bg-accent/10 px-3.5 py-1.5 rounded-full border border-accent/20">The Return</span>
+          <h2 class="text-3xl sm:text-4xl font-bold text-primary mt-4 mb-4 font-display">What You Will Gain</h2>
+          <p class="text-slate-600 text-base">We design for career integration. Here are the strategic assets you walk away with.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          
+          <!-- Outcome 1 -->
+          <div class="bg-slate-50 rounded-2xl border border-slate-100 p-8 text-center space-y-4 hover:border-slate-200 hover:shadow-lg transition duration-300 reveal">
+            <div class="mx-auto w-12 h-12 bg-accent/10 text-accent rounded-xl flex items-center justify-center border border-accent/20">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+              </svg>
+            </div>
+            <h3 class="font-bold text-primary text-xl font-display">Strategic Portfolio</h3>
+            <p class="text-slate-500 text-sm leading-relaxed">
+              Move beyond generic tutorials and into real-world learning. Gain hands-on experience by building practical cloud projects, collaborating with peers, and solving real challenges that reflect industry environments.
+            </p>
+          </div>
+
+          <!-- Outcome 2 -->
+          <div class="bg-slate-50 rounded-2xl border border-slate-100 p-8 text-center space-y-4 hover:border-slate-200 hover:shadow-lg transition duration-300 reveal">
+            <div class="mx-auto w-12 h-12 bg-purple/10 text-purple rounded-xl flex items-center justify-center border border-purple/20">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+              </svg>
+            </div>
+            <h3 class="font-bold text-primary text-xl font-display">Akwannya Accreditation</h3>
+            <p class="text-slate-500 text-sm leading-relaxed">
+              Earn an accredited Cloud Build Completion Certificate signed by community organizers, shareable on LinkedIn and portfolios.
+            </p>
+          </div>
+
+          <!-- Outcome 3 -->
+          <div class="bg-slate-50 rounded-2xl border border-slate-100 p-8 text-center space-y-4 hover:border-slate-200 hover:shadow-lg transition duration-300 reveal">
+            <div class="mx-auto w-12 h-12 bg-secondary/10 text-secondary rounded-xl flex items-center justify-center border border-secondary/20">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+            </div>
+            <h3 class="font-bold text-primary text-xl font-display">Interview Competency</h3>
+            <p class="text-slate-500 text-sm leading-relaxed">
+              Build confidence in how you communicate your work. Learn to clearly explain your ideas, walk through your solutions, and present your projects with clarity in any technical setting.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-slate-400 pt-16 pb-8 border-t border-slate-800" id="main-footer">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 pb-12 border-b border-slate-800">
+          
+          <!-- Column 1 -->
+          <div class="md:col-span-4 space-y-4">
+            <!-- Logo -->
+            <a href="index.html" class="flex items-center gap-3 group" id="footer-logo-link">
+              <img src="/assets/cloud-build-peers-logo.svg" alt="Cloud Build With Peers Logo" class="h-12 w-12 brightness-0 invert opacity-80 group-hover:opacity-100 transition duration-300" />
+              <div class="flex flex-col">
+                <span class="text-lg font-extrabold tracking-tight text-white leading-tight">Cloud Build <span class="text-[#F7941D]">With Peers</span></span>
+                <span class="text-[10px] font-bold text-[#38BDF8] tracking-widest uppercase leading-none">by Akwannya Hub</span>
+              </div>
+            </a>
+            <p class="text-sm text-slate-400 max-w-sm leading-relaxed">
+              Cloud Build With Peers is an accredited initiative of <strong>Akwannya Hub</strong>. We engineer high-performance cohort environments designed to replace isolated video watching with secure community team-building.
+            </p>
+          </div>
+
+          <!-- Column 2 -->
+          <div class="md:col-span-2 space-y-4">
+            <h3 class="text-sm font-bold tracking-wider text-slate-200 uppercase">Quick Links</h3>
+            <ul class="space-y-2.5 text-sm">
+              <li><a href="index.html" class="hover:text-white transition duration-200">Home Page</a></li>
+              <li><a href="about.html" class="hover:text-white transition duration-200">About Initiative</a></li>
+              <li><a href="programs.html" class="hover:text-white transition duration-200">Syllabus & Programs</a></li>
+              <li><a href="projects.html" class="hover:text-white transition duration-200">Featured Projects</a></li>
+              <li><a href="team.html" class="hover:text-white transition duration-200">Community Teams</a></li>
+              <li><a href="faq.html" class="hover:text-white transition duration-200">General FAQ</a></li>
+              <li><a href="contact.html" class="hover:text-white transition duration-200">Contact Form</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 3 -->
+          <div class="md:col-span-3 space-y-4">
+            <h3 class="text-sm font-bold tracking-wider text-slate-200 uppercase">Akwannya Hub</h3>
+            <p class="text-sm leading-relaxed">
+              Inquiries: <a href="mailto:akwannyah@gmail.com" class="text-slate-200 hover:text-white transition">akwannyah@gmail.com</a>
+            </p>
+            <p class="text-xs text-slate-500">
+              Akwannya Hub is dedicated to fostering digital literacy, cloud expertise, and strategic tech career portfolios globally.
+            </p>
+            <div class="flex items-center space-x-4 pt-2" id="footer-social-wrapper">
+              <a href="https://linkedin.com/company/akwannya-hub" target="_blank" rel="noopener noreferrer" class="p-2 bg-slate-800 rounded-xl hover:bg-primary hover:text-white transition duration-200 text-slate-400" aria-label="LinkedIn">
+                <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                </svg>
+              </a>
+              <a href="https://x.com/akwannyahub" target="_blank" rel="noopener noreferrer" class="p-2 bg-slate-800 rounded-xl hover:bg-primary hover:text-white transition duration-200 text-slate-400" aria-label="X (formerly Twitter)">
+                <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Column 4: Newsletter -->
+          <div class="md:col-span-3 space-y-4">
+            <h3 class="text-sm font-bold tracking-wider text-slate-200 uppercase">Newsletter</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Sign up to receive updates when new learning cohorts are announced.
+            </p>
+            <form id="newsletter-form" class="space-y-2">
+              <div class="relative">
+                <input type="email" id="newsletter-email" required class="w-full bg-slate-800 border border-slate-700 rounded-xl pl-4 pr-16 py-2.5 text-xs text-white placeholder-slate-500 focus:border-accent focus:outline-none transition duration-200" placeholder="Enter your email" />
+                <button type="submit" class="absolute right-1.5 top-1.5 bottom-1.5 bg-primary hover:bg-primary/95 text-white px-3 rounded-lg text-xs font-bold transition duration-200">
+                  Join
+                </button>
+              </div>
+              <p id="newsletter-message" class="text-[10px] text-emerald-400 hidden">Thanks! You've been added to our list.</p>
+            </form>
+          </div>
+
+        </div>
+
+        <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500">
+          <p>© 2026 Cloud Build With Peers by Akwannya Hub. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Interactive script loader -->
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "name": "Cloud Build With Peers",
+  "description": "A community-driven initiative by Akwannya Hub that empowers aspiring cloud professionals to gain practical experience by building real-world projects collaboratively.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

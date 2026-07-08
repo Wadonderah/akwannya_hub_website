@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Circular path for curved text at the bottom -->
+    <path id="textPathBottom" d="M 80,350 A 190,190 0 0 0 420,350" fill="none" />
+    
+    <!-- Linear gradient for subtle accents -->
+    <linearGradient id="cloudGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1E5E" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Double Circle Border -->
+  <circle cx="250" cy="250" r="235" fill="none" stroke="#0A1E5E" stroke-width="6" />
+  <circle cx="250" cy="250" r="225" fill="none" stroke="#94A3B8" stroke-dasharray="8 6" stroke-width="2" />
+  <circle cx="250" cy="250" r="215" fill="none" stroke="#0A1E5E" stroke-width="2" />
+
+  <!-- Inner Concentric Track for Decoration -->
+  <path d="M 60,250 A 190,190 0 0,1 440,250" fill="none" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="10 10" />
+
+  <!-- ======================================================= -->
+  <!-- TOP MINI-LOGO: AKWANNYA HUB                             -->
+  <!-- ======================================================= -->
+  <g transform="translate(215, 45) scale(0.35)">
+    <!-- Orange left side -->
+    <path d="M 60,110 C 42,110 27,95 27,75 C 27,55 42,40 60,40 C 65,40 70,41 74,43 L 74,58 C 70,56 65,55 60,55 C 49,55 40,64 40,75 C 40,86 49,95 60,95 L 60,110 Z" fill="#F7941D" />
+    <!-- Teal right side -->
+    <path d="M 80,43 C 84,41 89,40 94,40 C 112,40 127,55 127,75 C 127,95 112,110 94,110 L 80,110 L 80,95 C 91,95 100,86 100,75 C 100,64 91,55 94,55 C 89,55 84,56 80,58 Z" fill="#007B75" />
+    <!-- Roof -->
+    <path d="M 77,20 L 105,45 L 105,55 L 97,55 L 97,50 L 77,32 L 57,50 L 57,55 L 49,55 L 49,45 Z" fill="#007B75" />
+    <!-- Inner pillars and road -->
+    <path d="M 67,50 L 77,40 L 87,50 L 87,95 L 80,95 L 80,65 L 74,65 L 74,95 L 67,95 Z" fill="#007B75" />
+    <!-- Ladder Steps -->
+    <polygon points="70,68 84,68 85,71 69,71" fill="#007B75" />
+    <polygon points="68,74 86,74 87,77 67,77" fill="#007B75" />
+    <polygon points="66,80 88,80 90,84 64,84" fill="#007B75" />
+    <polygon points="64,87 90,87 92,92 62,92" fill="#007B75" />
+  </g>
+  <!-- Mini logo label -->
+  <text x="250" y="103" font-family="'Inter', -apple-system, sans-serif" font-weight="800" font-size="11" fill="#007B75" text-anchor="middle" letter-spacing="1">AKWANNYA</text>
+  <text x="250" y="114" font-family="'Inter', -apple-system, sans-serif" font-weight="800" font-size="11" fill="#F7941D" text-anchor="middle" letter-spacing="1.5">HUB</text>
+  <line x1="200" y1="108" x2="175" y2="108" stroke="#94A3B8" stroke-width="1.5" />
+  <circle cx="175" cy="108" r="2.5" fill="#94A3B8" />
+  <line x1="300" y1="108" x2="325" y2="108" stroke="#94A3B8" stroke-width="1.5" />
+  <circle cx="325" cy="108" r="2.5" fill="#94A3B8" />
+
+  <!-- ======================================================= -->
+  <!-- CENTRAL GRAPHIC: CLOUD & PEER ICONS                     -->
+  <!-- ======================================================= -->
+  <!-- Stylized Cloud outline enclosing 3 peer icons -->
+  <g transform="translate(0, 5)">
+    <!-- Central Cloud Path -->
+    <path d="M 195,200 
+             C 185,200 175,208 175,218 
+             C 175,219 175,221 176,222 
+             C 170,224 165,230 165,238 
+             C 165,247 172,254 181,254 
+             L 319,254 
+             C 328,254 335,247 335,238 
+             C 335,231 330,225 324,222 
+             C 325,221 325,219 325,218 
+             C 325,208 315,200 305,200 
+             C 301,200 297,202 294,205 
+             C 289,193 277,185 263,185 
+             C 253,185 244,190 239,198 
+             C 234,192 226,188 217,188 
+             C 206,188 197,194 195,200 Z" 
+          fill="none" stroke="#2563EB" stroke-width="2.5" stroke-linejoin="round" opacity="0.3" />
+
+    <!-- 3 Peer silhouettes inside/overlapping the cloud -->
+    <!-- Left Peer (Teal) -->
+    <g transform="translate(205, 202)">
+      <circle cx="20" cy="20" r="11" fill="#007B75" />
+      <path d="M 5,39 A 15,15 0 0,1 35,39 Z" fill="#007B75" />
+      <!-- Small details (collar/helmet line) -->
+      <path d="M 15,28 C 17,31 23,31 25,28" stroke="#FFFFFF" stroke-width="1.5" fill="none" />
+    </g>
+
+    <!-- Right Peer (Teal) -->
+    <g transform="translate(255, 202)">
+      <circle cx="20" cy="20" r="11" fill="#007B75" />
+      <path d="M 5,39 A 15,15 0 0,1 35,39 Z" fill="#007B75" />
+      <!-- Small details -->
+      <path d="M 15,28 C 17,31 23,31 25,28" stroke="#FFFFFF" stroke-width="1.5" fill="none" />
+    </g>
+
+    <!-- Center Peer (Orange - Front-most) -->
+    <g transform="translate(230, 195)">
+      <circle cx="20" cy="20" r="12" fill="#F7941D" />
+      <path d="M 3,41 A 17,17 0 0,1 37,41 Z" fill="#F7941D" />
+      <!-- White accent collar line -->
+      <path d="M 14,29 C 16,32 24,32 26,29" stroke="#FFFFFF" stroke-width="2" fill="none" />
+    </g>
+  </g>
+
+  <!-- ======================================================= -->
+  <!-- MAIN TYPOGRAPHY: CLOUD BUILD PEERS                      -->
+  <!-- ======================================================= -->
+  <!-- "CLOUD" -->
+  <text x="250" y="178" font-family="'Inter', -apple-system, sans-serif" font-weight="900" font-size="52" fill="#0A1E5E" text-anchor="middle" letter-spacing="4">CLOUD</text>
+  
+  <!-- "BUILD" Section with Side Ornaments -->
+  <g transform="translate(0, 0)">
+    <!-- Left Ornaments -->
+    <rect x="110" y="274" width="18" height="6" fill="#0A1E5E" />
+    <rect x="140" y="271" width="12" height="12" fill="#F7941D" />
+    <rect x="158" y="274" width="10" height="6" fill="#007B75" />
+
+    <!-- Text -->
+    <text x="250" y="283" font-family="'Inter', -apple-system, sans-serif" font-weight="900" font-size="30" fill="#0A1E5E" text-anchor="middle" letter-spacing="6">BUILD</text>
+
+    <!-- Right Ornaments -->
+    <rect x="332" y="274" width="10" height="6" fill="#007B75" />
+    <rect x="348" y="271" width="12" height="12" fill="#F7941D" />
+    <rect x="372" y="274" width="18" height="6" fill="#0A1E5E" />
+  </g>
+
+  <!-- "PEERS" -->
+  <text x="250" y="344" font-family="'Inter', -apple-system, sans-serif" font-weight="900" font-size="56" fill="#0A1E5E" text-anchor="middle" letter-spacing="2">PEERS</text>
+
+  <!-- Decorative swooshes below PEERS -->
+  <path d="M 130,362 C 180,380 320,380 370,362" fill="none" stroke="#0A1E5E" stroke-width="3" stroke-linecap="round" />
+  <path d="M 170,369 C 210,380 290,380 330,369" fill="none" stroke="#F7941D" stroke-width="2" stroke-linecap="round" />
+
+  <!-- ======================================================= -->
+  <!-- BOTTOM CURVED TEXT: LEARN • BUILD • SHARE • INSPIRE      -->
+  <!-- ======================================================= -->
+  <text font-family="'Inter', -apple-system, sans-serif" font-weight="800" font-size="14.5" fill="#0A1E5E" letter-spacing="3.5">
+    <textPath href="#textPathBottom" startOffset="50%" text-anchor="middle">
+      LEARN <tspan fill="#F7941D">•</tspan> BUILD <tspan fill="#007B75">•</tspan> SHARE <tspan fill="#F7941D">•</tspan> INSPIRE
+    </textPath>
+  </text>
+</svg>

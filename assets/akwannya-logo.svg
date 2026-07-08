@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" width="100%" height="100%">
+  <defs>
+    <!-- Smooth drop shadow for a premium feel -->
+    <filter id="logo-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0A1E5E" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Logo Mark Graphic -->
+  <g transform="translate(0, 10)">
+    <!-- Orange left side arch -->
+    <path d="M 160,240 
+             C 125,240 95,210 95,170 
+             C 95,125 130,90 175,90 
+             C 183,90 190,92 196,95 
+             L 196,128 
+             C 190,124 183,122 175,122 
+             C 148,122 127,143 127,170 
+             C 127,197 148,218 175,218 
+             L 175,240 
+             Z" fill="#F7941D" />
+
+    <!-- Teal right side arch + pitched roof shape -->
+    <path d="M 204,95 
+             C 210,92 217,90 225,90 
+             C 270,90 305,125 305,170 
+             C 305,210 275,240 240,240 
+             L 225,240 
+             L 225,218 
+             C 252,218 273,197 273,170 
+             C 273,143 252,122 225,122 
+             C 217,122 210,124 204,128 
+             Z" fill="#007B75" />
+
+    <!-- Pitched Roof House Outline in Teal -->
+    <path d="M 200,55 
+             L 255,105 
+             L 255,125 
+             L 240,125 
+             L 240,115 
+             L 200,78 
+             L 160,115 
+             L 160,125 
+             L 145,125 
+             L 145,105 
+             Z" fill="#007B75" />
+
+    <!-- Inner House Pillars -->
+    <path d="M 175,115 L 200,92 L 225,115 L 225,215 L 210,215 L 210,150 L 190,150 L 190,215 L 175,215 Z" fill="#007B75" />
+
+    <!-- Africa Map Contour centered in the house opening -->
+    <path d="M 197,112 
+             C 201,111 204,111 206,113 
+             C 208,114 209,117 207,119 
+             C 209,120 211,121 210,124 
+             C 209,126 207,129 205,130 
+             C 203,132 201,135 198,137 
+             C 196,137 194,133 192,132 
+             C 190,130 188,127 186,125 
+             C 183,122 185,120 187,118 
+             C 189,117 191,117 193,115 
+             C 193,113 195,112 197,112 Z" fill="#007B75" />
+
+    <!-- Ladder / Perspective Road Steps (Tapering from bottom to top) -->
+    <!-- 5 Horizontal bars with perspectives -->
+    <polygon points="185,155 215,155 217,161 183,161" fill="#007B75" />
+    <polygon points="181,166 219,166 222,172 178,172" fill="#007B75" />
+    <polygon points="176,177 224,177 227,184 173,184" fill="#007B75" />
+    <polygon points="171,189 229,189 233,197 167,197" fill="#007B75" />
+    <polygon points="165,202 235,202 240,211 160,211" fill="#007B75" />
+  </g>
+
+  <!-- Typography Area -->
+  <!-- "Akwannya" -->
+  <text x="200" y="295" font-family="'Inter', -apple-system, sans-serif" font-weight="800" font-size="44" fill="#0F172A" text-anchor="middle" letter-spacing="-1">Akwannya</text>
+  
+  <!-- "HUB" -->
+  <text x="200" y="348" font-family="'Inter', -apple-system, sans-serif" font-weight="800" font-size="48" fill="#F7941D" text-anchor="middle" letter-spacing="1">HUB</text>
+  
+  <!-- Subtitle -->
+  <text x="200" y="390" font-family="'Inter', -apple-system, sans-serif" font-weight="600" font-size="15" fill="#007B75" text-anchor="middle" letter-spacing="0.5">Inspiring Change, Building Futures</text>
+</svg>

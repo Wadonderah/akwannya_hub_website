@@ -1,25 +1,8 @@
-# Terraform
-.terraform/
-*.tfstate
-*.tfstate.*
-crash.log
-
-override.tf
-override.tf.json
-
-terraform.rc
-
-# Variables
-*.auto.tfvars
-terraform.tfvars
-
-# IDE
-.vscode/
-.idea/
-
-# OS
+node_modules/
+build/
+dist/
+coverage/
 .DS_Store
-Thumbs.db
-
-# Logs
 *.log
+.env*
+!.env.example
